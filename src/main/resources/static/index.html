@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Person Form</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="service.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+<h1>Person Form</h1>
+<form>
+    <label for="id">ID:</label>
+    <input type="number" id="id" name="id"><br><br>
+    <label for="firstName">First Name:</label>
+    <input type="text" id="firstName" name="firstName"><br><br>
+    <label for="lastName">Last Name:</label>
+    <input type="text" id="lastName" name="lastName"><br><br>
+    <input type="button" value="create" onclick="createPerson()">
+    <input type="button" value="read" onclick="readPersonById()">
+    <input type="button" value="read all" onclick="readAllPersons()">
+    <input type="button" value="update" onclick="updatePersonById()">
+    <input type="button" value="delete" onclick="deletePersonById()">
+</form>
+</body>
+</html>
