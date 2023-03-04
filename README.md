@@ -1,6 +1,9 @@
 # Full Stack Application with Spring Boot and jQuery
 
-This is a simple full stack web application built using Spring Boot and jQuery. The application allows you to create, read, update, and delete records of people from a database. 
+* This is a simple full stack web application built using Spring Boot and jQuery.
+* The application allows you to create, read, update, and delete records of people from a database.
+* This application has been deployed at the location below
+    > https://spring-jquery-monolith.onrender.com/
 
 ## Technologies Used
 - Spring Boot
